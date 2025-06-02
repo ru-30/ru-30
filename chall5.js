@@ -6,3 +6,5 @@ const cannonsReady = (gunners) => {
     }
   return "Fire!"
 }
+
+console.log(cannonsReady({Mike: "aye", John: "aye"}))
