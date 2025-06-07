@@ -1,3 +1,3 @@
-function makeNegative(num) {
-    return num > 0 ? -num : num;
+function positiveSum(arr) {
+    return arr.reduce((sum, num) => num > 0 ? sum + num : sum, 0);
 }
